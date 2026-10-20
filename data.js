@@ -35,6 +35,16 @@ window.CARS=[
    "Круиз-контроль",
    "Bluetooth / USB",
    "Электропакет"
+  ],
+  "th": [
+   "photos/25/t1.jpg",
+   "photos/25/t2.jpg",
+   "photos/25/t3.jpg",
+   "photos/25/t4.jpg",
+   "photos/25/t5.jpg",
+   "photos/25/t6.jpg",
+   "photos/25/t7.jpg",
+   "photos/25/t8.jpg"
   ]
  },
  {
@@ -78,7 +88,17 @@ window.CARS=[
    "Bluetooth / USB",
    "Электропакет"
   ],
-  "old": 14200
+  "old": 14200,
+  "th": [
+   "photos/30/t1.jpg",
+   "photos/30/t2.jpg",
+   "photos/30/t3.jpg",
+   "photos/30/t4.jpg",
+   "photos/30/t5.jpg",
+   "photos/30/t6.jpg",
+   "photos/30/t7.jpg",
+   "photos/30/t8.jpg"
+  ]
  },
  {
   "id": 32,
@@ -114,6 +134,10 @@ window.CARS=[
    "Легкосплавные диски",
    "Bluetooth / USB",
    "Электропакет"
+  ],
+  "th": [
+   "photos/32/t1.jpg",
+   "photos/32/t2.jpg"
   ]
  },
  {
@@ -153,6 +177,16 @@ window.CARS=[
    "Круиз-контроль",
    "Легкосплавные диски",
    "Электропакет"
+  ],
+  "th": [
+   "photos/26/t1.jpg",
+   "photos/26/t2.jpg",
+   "photos/26/t3.jpg",
+   "photos/26/t4.jpg",
+   "photos/26/t5.jpg",
+   "photos/26/t6.jpg",
+   "photos/26/t7.jpg",
+   "photos/26/t8.jpg"
   ]
  },
  {
@@ -192,6 +226,16 @@ window.CARS=[
    "Парктроник",
    "Легкосплавные диски",
    "Электропакет"
+  ],
+  "th": [
+   "photos/258/t1.jpg",
+   "photos/258/t2.jpg",
+   "photos/258/t3.jpg",
+   "photos/258/t4.jpg",
+   "photos/258/t5.jpg",
+   "photos/258/t6.jpg",
+   "photos/258/t7.jpg",
+   "photos/258/t8.jpg"
   ]
  },
  {
@@ -228,7 +272,17 @@ window.CARS=[
    "Защитные дуги",
    "Кофры"
   ],
-  "old": 5790
+  "old": 5790,
+  "th": [
+   "photos/m2/t1.jpg",
+   "photos/m2/t2.jpg",
+   "photos/m2/t3.jpg",
+   "photos/m2/t4.jpg",
+   "photos/m2/t5.jpg",
+   "photos/m2/t6.jpg",
+   "photos/m2/t7.jpg",
+   "photos/m2/t8.jpg"
+  ]
  },
  {
   "id": 1003,
@@ -262,6 +316,16 @@ window.CARS=[
   "opts": [
    "ABS",
    "Обогрев рукояток"
+  ],
+  "th": [
+   "photos/m3/t1.jpg",
+   "photos/m3/t2.jpg",
+   "photos/m3/t3.jpg",
+   "photos/m3/t4.jpg",
+   "photos/m3/t5.jpg",
+   "photos/m3/t6.jpg",
+   "photos/m3/t7.jpg",
+   "photos/m3/t8.jpg"
   ]
  },
  {
@@ -296,6 +360,16 @@ window.CARS=[
   "opts": [
    "ABS",
    "Защитные дуги"
+  ],
+  "th": [
+   "photos/m4/t1.jpg",
+   "photos/m4/t2.jpg",
+   "photos/m4/t3.jpg",
+   "photos/m4/t4.jpg",
+   "photos/m4/t5.jpg",
+   "photos/m4/t6.jpg",
+   "photos/m4/t7.jpg",
+   "photos/m4/t8.jpg"
   ]
  },
  {
@@ -329,6 +403,16 @@ window.CARS=[
   "drop": false,
   "opts": [
    "ABS"
+  ],
+  "th": [
+   "photos/m5/t1.jpg",
+   "photos/m5/t2.jpg",
+   "photos/m5/t3.jpg",
+   "photos/m5/t4.jpg",
+   "photos/m5/t5.jpg",
+   "photos/m5/t6.jpg",
+   "photos/m5/t7.jpg",
+   "photos/m5/t8.jpg"
   ]
  }
 ];
