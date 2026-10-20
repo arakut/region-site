@@ -376,7 +376,7 @@ nav a{white-space:nowrap;padding:8px 10px}
 .hh{font-family:var(--display);font-style:italic;font-weight:900;font-size:clamp(32px,4.2vw,54px);line-height:1.02;letter-spacing:-.01em}
 .st p{color:var(--muted);font-size:17px;max-width:42ch;margin:0}
 .hb{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
-.sp{background:#0c0d0f center/cover no-repeat;clip-path:polygon(16% 0,100% 0,100% 100%,0 100%)}
+.hph{background:#0c0d0f center/cover no-repeat;clip-path:polygon(16% 0,100% 0,100% 100%,0 100%)}
 .btn.pill{border-radius:999px;padding:13px 24px}
 .btn.amber{box-shadow:0 8px 22px rgba(242,169,0,.28)}
 .dots{display:flex;gap:8px;justify-content:center;margin:12px 0 4px}
@@ -402,7 +402,7 @@ nav a{white-space:nowrap;padding:8px 10px}
 .ti .pay{margin:4px 0 0;font-size:13px;padding:5px 10px;align-self:flex-start}
 .sa{position:absolute;top:34%;z-index:2;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--panel2);color:var(--text);font-size:22px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
 .sa.l{left:-16px}.sa.r{right:-16px}
-@media(max-width:960px){.slide{grid-template-columns:1fr;min-height:0}.sp{order:-1;aspect-ratio:16/10;clip-path:polygon(0 0,100% 0,100% 84%,0 100%)}.st{padding:16px 20px 26px}.cstrip{grid-auto-columns:76%}.sa{display:none}}
+@media(max-width:960px){.slide{grid-template-columns:1fr;min-height:0}.hph{order:-1;aspect-ratio:16/10;clip-path:polygon(0 0,100% 0,100% 84%,0 100%)}.st{padding:16px 20px 26px}.cstrip{grid-auto-columns:76%}.sa{display:none}}
 @media(prefers-reduced-motion:reduce){.slide,.dots button,.tile{transition:none}}
 
 .old{font-size:13px;color:var(--muted)}
@@ -727,7 +727,7 @@ const SLIDES=()=>{const g=ALL.find(c=>c.id===32)||ALL[0],z=ALL.find(c=>c.id===30
 function home(){
   const o=open_();let kind='';const sl=SLIDES();
   $('#app').innerHTML=`<div class="wrap">
-  <section class="hero2"><div class="hs" id="hs">${sl.map((x,i)=>`<div class="slide${i?'':' on'}" aria-hidden="${i?'true':'false'}"><div class="st"><h1 class="hh">${x.h}</h1><p>${x.p}</p><div class="hb">${x.b.map(([t,u,pr])=>`<a class="btn pill${pr?' amber':''}" href="${u}" ${i?'tabindex="-1"':''}>${t}</a>`).join('')}</div></div><div class="sp" style="background-image:url(${x.img})"></div></div>`).join('')}</div>
+  <section class="hero2"><div class="hs" id="hs">${sl.map((x,i)=>`<div class="slide${i?'':' on'}" aria-hidden="${i?'true':'false'}"><div class="st"><h1 class="hh">${x.h}</h1><p>${x.p}</p><div class="hb">${x.b.map(([t,u,pr])=>`<a class="btn pill${pr?' amber':''}" href="${u}" ${i?'tabindex="-1"':''}>${t}</a>`).join('')}</div></div><div class="hph" style="background-image:url(${x.img})"></div></div>`).join('')}</div>
    <div class="dots" id="dots">${sl.map((_,i)=>`<button class="${i?'':'on'}" data-i="${i}" aria-label="Слайд ${i+1}"></button>`).join('')}</div></section>
   <div class="duo"><a class="door" href="#/catalog"><span class="dk2">Покупателям</span><b>Купить автомобиль или мотоцикл</b><span>132 автомобиля на площадке в Лиде. Кредит, лизинг, зачёт вашего авто.</span><em class="btn amber pill">Выбрать</em></a>
    <a class="door sell" href="#/sell"><span class="dk2">Продавцам</span><b>Продать автомобиль через нас</b><span>Примем на комиссию и найдём покупателя: площадка в Лиде, объявления на av.by, Kufar, в Instagram и на сайте.</span><em class="btn amber pill">Сдать на комиссию</em></a></div>
